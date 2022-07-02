@@ -44,7 +44,7 @@ img {
 /* style start */
 
 .container {
-    margin: 0 5rem;
+    margin: 5rem 5rem;
 }
 
 .hero {
@@ -174,4 +174,50 @@ img {
     font-size: 2.5rem;
     font-weight: 600;
     margin: 2rem auto;
+}
+
+/* develop style  */
+
+.develop-back {
+    width: 90%;
+    margin-left: 5rem;
+}
+
+.develop {
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    width: 100%;
+}
+
+/* image  */
+.develop .develop-img img {
+    width: 100%;
+    border-radius: 2.5rem;
+}
+
+.develop .develop-detail h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+/* text  */
+.develop .develop-detail h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgba(62, 62, 62, 1);
+    width: 70%;
+    line-height: 3rem;
+    margin: 2.5rem 0;
+}
+
+.develop .develop-detail button {
+    font-family: 'roboto';
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    width: 30%;
+    background-color: rgba(255, 89, 89, 1);
+    color: white;
+    border-radius: 0.5rem;
 }
