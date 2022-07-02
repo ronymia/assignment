@@ -283,3 +283,87 @@ button {
 .community .community-img img {
     width: 100%;
 }
+
+/* application  */
+.app-head {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
+.app-head span {
+    color: rgba(255, 173, 90, 1);
+}
+
+.application {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 5rem; */
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.application .application-img .app-img {
+    width: 50%;
+}
+
+.application .application-img {
+    position: relative;
+}
+
+.application .application-img .app-shape1 {
+    width: 20%;
+    position: absolute;
+    top: -2rem;
+    /* bottom: 0; */
+    left: -1.5rem;
+    z-index: -1;
+}
+
+.application .application-img .app-shape2 {
+    width: 10%;
+    position: absolute;
+    /* top: -2rem; */
+    bottom: 1.5rem;
+    /* left: 0rem; */
+    z-index: -1;
+}
+
+.application .application-img .app-shape3 {
+    width: 10%;
+    position: absolute;
+    /* top: -2rem; */
+    bottom: 11rem;
+    right: 24rem;
+    z-index: -1;
+}
+
+.application .application-detail h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
+.application .application-detail h1 span {
+    color: rgba(255, 173, 90, 1);
+}
+
+.application .application-detail h4 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgba(62, 62, 62, 1);
+    margin: 2rem 0;
+}
+
+.application .application-detail button {
+    font-family: 'roboto';
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+    width: 40%;
+    background-color: rgba(255, 89, 89, 1);
+    color: white;
+    border-radius: 0.5rem;
+}
